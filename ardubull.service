@@ -1,0 +1,21 @@
+[Unit]
+Description=ArdUBull MAVLink RC Channel Forwarder
+Documentation=https://github.com/JShadowNull/RC_to_PWM
+After=network.target
+
+[Service]
+Type=simple
+User=YOUR_USERNAME
+WorkingDirectory=/path/to/ardubull
+ExecStart=/path/to/ardubull/ardubull-linux-x86_64
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+# Security hardening (optional)
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

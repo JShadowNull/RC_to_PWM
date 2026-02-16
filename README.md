@@ -84,16 +84,3 @@ ArdUBull sends 8-byte packets in big-endian format:
 ```
 
 Both values are signed 32-bit integers representing PWM values in microseconds (1000-2000).
-
-## Requirements
-
-- **Runtime**: None! Single static binary
-- **Build**: Rust 1.70+ (if building from source)
-
-## License
-
-MIT
-
-## Contributing
-
-Pull requests welcome! 🚀
