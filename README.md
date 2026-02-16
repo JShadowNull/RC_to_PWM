@@ -17,7 +17,7 @@ MAVLink RC channel forwarder written in Rust. Listens for MAVLink RC_CHANNELS me
 
 ```bash
 # Download the latest release
-wget https://github.com/JShadowNull/RC_to_PWM/releases/latest/download/ardubull-linux-x86_64
+wget https://github.com/JShadowNull/ArdUBull/releases/latest/download/ardubull-linux-x86_64
 
 # Make it executable
 chmod +x ardubull-linux-x86_64
@@ -30,8 +30,8 @@ chmod +x ardubull-linux-x86_64
 
 ```bash
 # Clone the repository
-git clone https://github.com/JShadowNull/RC_to_PWM.git
-cd RC_to_PWM
+git clone https://github.com/JShadowNull/ArdUBull.git
+cd ArdUBull
 
 # Build release binary
 cargo build --release
